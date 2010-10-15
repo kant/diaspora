@@ -9,26 +9,26 @@ es:
     failure:
       unauthenticated: 'Necesitas acceder a tu cuenta o registrarte antes de continuar.'
       unconfirmed: 'Necesitas confirmar tu cuenta antes de continuar.'
-      locked: 'Tu cuenta esta bloqueada.'
-      invalid: 'Contraseña o Email incorrecto.'
-      invalid_token: 'Token de autenticación incorrecto.'
-      timeout: 'Tu sesión ha expirado, por favor accede de nuevo para continuar.'
+      locked: 'Tu cuenta está bloqueada.'
+      invalid: 'Contraseña o email incorrecto.'
+      invalid_token: 'Autenticación incorrecta.'
+      timeout: 'Tu sesión ha expirado, por favor accede de nuevo.'
       inactive: 'Tu cuenta no ha sido activada.'
     sessions:
       signed_in: 'Has ingresado correctamente.'
       signed_out: 'Has salido correctamente.'
     passwords:
-      send_instructions: 'Recibirás un email con instrucciones para cambiar tu contraseña en pocos minutos.'
+      send_instructions: 'Recibirás un correo electrónico con instrucciones para cambiar tu contraseña en pocos minutos.'
       updated: 'Tu contraseña ha sido modificada. Ya has accedido a tu cuenta.'
     confirmations:
-      send_instructions: 'Recibirás un email con instrucciones para confirmar tu cuenta en pocos minutos.'
+      send_instructions: 'Recibirás un correo electrónico con instrucciones para confirmar tu cuenta en pocos minutos.'
       confirmed: 'Tu cuenta ha sido confirmada. Ya has accedido a tu cuenta.'
     registrations:
-      signed_up: 'Te has registrado correctamente. Si está disponible, te habremos enviado un email de confirmación.'
+      signed_up: 'Te has registrado correctamente. Si está disponible, te enviaremos un correo electrónico de confirmación.'
       updated: 'Has actualizado tu cuenta correctamente.'
       destroyed: '!Adiós! Tu cuenta ha sido cancelada. Esperamos verte pronto.'
     unlocks:
-      send_instructions: 'Recibirás un email con instrucciones para desbloquear tu cuenta en pocos minutos.'
+      send_instructions: 'Recibirás un correo electrónico con instrucciones para desbloquear tu cuenta en pocos minutos.'
       unlocked: 'Tu cuenta ha sido desbloqueada. Ya has accedido a tu cuenta.'
     oauth_callbacks:
       success: 'Has sido autorizado satisfactoriamente de la cuenta %{kind}.'
